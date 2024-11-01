@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sp.SpaceController">
+   <children>
+      <Button layoutX="221.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnStartClicked" prefHeight="25.0" prefWidth="103.0" text="Start Game" textFill="#4d0303">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="221.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnExitClicked" prefHeight="25.0" prefWidth="103.0" text="Exit" textFill="#5e0d0d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="221.0" layoutY="244.0" mnemonicParsing="false" onAction="#btnaboutClicked" prefHeight="25.0" prefWidth="103.0" text="About" textFill="#5e0d0d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="126.0" fitWidth="376.0" layoutX="112.0" layoutY="74.0" pickOnBounds="true">
+         <image>
+            <Image url="@ezazspace.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
